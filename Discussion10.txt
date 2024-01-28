@@ -1,0 +1,6 @@
+* Lesson 10: Sampling
+1) What is sampling?
+2) How to transform a 2D continuous signal ino a discrete signal?
+3) How to move geometrical objects?
+4) What is linear interpolation?
+5) Among 4 interpolation methods, in your opinion which one is the best? Why?

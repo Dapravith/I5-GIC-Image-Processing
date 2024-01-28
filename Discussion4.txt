@@ -1,0 +1,6 @@
+* Lesson 4: Introduction to Multimedia Systems
+1) What is multimedia system?
+2) Multimedia is multidisciplinary. Why?
+3) Explain how to track and recognize an object?
+4) What issues or problems are there when we transmit video and audio through packet network?
+5) Why index is important in multimedia database?

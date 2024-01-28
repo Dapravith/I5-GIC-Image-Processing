@@ -1,0 +1,3 @@
+* Lesson 8: LZ78
+1) Explain LZ78 compression algorithm?
+2) By using LZ78 compression algorithm, find encoder and decoder from 2 different examples? You can choose your own string.

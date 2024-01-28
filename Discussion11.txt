@@ -1,0 +1,6 @@
+* Lesson 11: Image Segmentation part 1
+1) What is edge detection?
+2) Why do we need edge detection?
+3) What are primitives of edge detection?
+4) Explain the edge detection algorithm?
+5) How to enhance first filter result?

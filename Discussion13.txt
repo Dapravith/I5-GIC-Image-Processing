@@ -1,0 +1,6 @@
+* Lesson 13: Luminance and Histogram Equalization
+1) What is luminance?
+2) Explain how to make image darkness?
+3) Explain how to make image brightness?
+4) What is histogram equalization?
+5) Explain how to calculate the histogram equalization?

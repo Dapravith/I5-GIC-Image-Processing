@@ -1,0 +1,6 @@
+* Lesson 3: Ms. Visual Studio 2008 and OpenCV
+1) Why do we need IDE for implementation or coding?
+2) What are advantages of OpenCV?
+3) Explain how to create a project in Ms. Visual Studio?
+4) Which libraries should we import into Ms. Visual Studio?
+5) What happen if we don't import all necessary libraries? Why?

@@ -1,0 +1,3 @@
+* Lesson 9: LZW
+1) Explain LZW compression algorithm?
+2) By using LZW compression algorithm, find encoder and decoder from 2 different examples? You can choose your own string.

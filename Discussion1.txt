@@ -1,0 +1,6 @@
+* Lesson 1: Introduction to Image Processing
+1) How does the computer display image from the real world image?
+2) What is the difference between analog and digital signal processing?
+3) What is the difference between 4 and 8 neighborhood pixels?
+4) In your opinion, among Euclidean, Block, and Chess distance algorithm which one is the best? Why?
+5) What is the difference between binary, grayscale, and color image?

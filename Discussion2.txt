@@ -1,0 +1,6 @@
+* Lesson 2: Data Structure and Color of Images
+1) Why do we need to know daa structure of images?
+2) How to access all pixels in a 2D image?
+3) Why do we need to convert from RGB to other color channels?
+4) If we change the value of luminance, does the color change? Why?
+5) What is the difference between 1D, 2D, and 3D image?

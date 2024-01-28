@@ -1,0 +1,3 @@
+* Lesson 7: LZ77
+1) Explain LZ77 compression algorithm?
+2) By using LZ77 compression algorithm, find encoder and decoder from 2 different examples? You can choose your own string. Note: First block is more than second block!

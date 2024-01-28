@@ -1,0 +1,6 @@
+* Lesson 12: Image Segmentation part 2
+1) What is convolution?
+2) What is a mask or kernel?
+3) Why do we need to do smoothing?
+4) What is thresholding?
+5) What is difference between low and high threshold?

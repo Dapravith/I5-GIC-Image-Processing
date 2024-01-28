@@ -1,0 +1,6 @@
+* Lesson 6: Huffman Coding
+1) What is Huffman coding?
+2) Explain Huffman coding algorithm?
+3) Why do we use Huffman tree?
+4) Assume that we have 6 symbols, draw Huffman tree and find codeword of each symbol? You can choose your own values.
+5) Find entropy and average codeword length from the word "lessonseemscool"?
