@@ -1,0 +1,31 @@
+import cv2 as cv
+
+def convert_to_grayscale(FileImage):
+    height, width = FileImage.shape[:2]
+    grayscale_image = FileImage.copy()
+
+    for h in range(height):
+        for w in range(width):
+            R = FileImage[h][w][2]
+            G = FileImage[h][w][1]
+            B = FileImage[h][w][0]
+
+            # Apply the formula for Intensity RGB to Grayscale conversion Image
+            intensity_RGB = 0.299 * R + 0.587 * G + 0.114 * B
+
+            # Update the pixel value in the grayscale image
+            grayscale_image[h, w] = [intensity_RGB, intensity_RGB, intensity_RGB]
+
+    return grayscale_image
+
+FileImage = cv.imread('./images/fruit1.jpg')
+
+# Call the function to convert the image to GrayScale
+New_grayScale = convert_to_grayscale(FileImage)
+
+# Display the original and grayscale images
+cv.imshow('OriginalScale Image', FileImage)
+cv.imshow('GrayScale Image', New_grayScale)
+
+cv.waitKey(0)
+cv.destroyAllWindows()

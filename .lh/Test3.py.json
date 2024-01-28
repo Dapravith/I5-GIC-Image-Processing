@@ -1,0 +1,30 @@
+{
+    "sourceFile": "Test3.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1702538652433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1702538663008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import cv2 as cv\n+\n+imagePhoto = cv.imread('./images/Pic1.jpg');\n+\n+height, width = imagePhoto.shape[:2];\n+\n+for h in range(height) :\n+    for w in range(width):\n+        R = imagePhoto[h,w, 0]\n+        G = imagePhoto[h,w, 1]\n+        B = imagePhoto[h,w,2]\n+        \n+        # use Formula \n+        imagePhoto[h,w] = 0.299*R + 0.587*G + 0.114*B\n+cv.imshow('Gray Scale Image', imagePhoto)\n+cv.waitKey(0)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1702538741726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,24 +9,8 @@\n         R = imagePhoto[h,w, 0]\n         G = imagePhoto[h,w, 1]\n         B = imagePhoto[h,w,2]\n         \n-        # use Formula \n+        # use Formula RGB = 0.299R + 0.587*G + 0.114*B\n         imagePhoto[h,w] = 0.299*R + 0.587*G + 0.114*B\n cv.imshow('Gray Scale Image', imagePhoto)\n-cv.waitKey(0)\n-import cv2 as cv\n-\n-imagePhoto = cv.imread('./images/Test1.jpg');\n-\n-height, width = imagePhoto.shape[:2];\n-\n-for h in range(height) :\n-    for w in range(width):\n-        R = imagePhoto[h,w, 0]\n-        G = imagePhoto[h,w, 1]\n-        B = imagePhoto[h,w,2]\n-        \n-        # use Formula \n-        imagePhoto[h,w] = 0.299*R + 0.587*G + 0.114*B\n-cv.imshow('Gray Scale Image', imagePhoto)\n cv.waitKey(0)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1702538855416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import cv2 as cv\n+\n+imagePhoto = cv.imread('./images/Pic1.jpg');\n+\n+height, width = imagePhoto.shape[:2]\n+\n+for h in range(height) :\n+    for w in range(width):\n+        R = imagePhoto[h,w, 0]\n+        G = imagePhoto[h,w, 1]\n+        B = imagePhoto[h,w,2]\n+        \n+        # use Formula RGB = 0.299R + 0.587*G + 0.114*B\n+        imagePhoto[h,w] = 0.299*R + 0.587*G + 0.114*B\n+cv.imshow('Gray Scale Image', imagePhoto)\n+cv.waitKey(0)\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1702538652433,
+            "name": "Commit-0",
+            "content": "import cv2 as cv\n\nimagePhoto = cv.imread('./images/Test1.jpg');\n\nheight, width = imagePhoto.shape[:2];\n\nfor h in range(height) :\n    for w in range(width):\n        R = imagePhoto[h,w, 0]\n        G = imagePhoto[h,w, 1]\n        B = imagePhoto[h,w,2]\n        \n        # use Formula \n        imagePhoto[h,w] = 0.299*R + 0.587*G + 0.114*B\ncv.imshow('Gray Scale Image', imagePhoto)\ncv.waitKey(0)"
+        }
+    ]
+}

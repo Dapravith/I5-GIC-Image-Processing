@@ -1,0 +1,22 @@
+{
+    "sourceFile": "ROTHA_Dapravith_e20190915_TP3.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1704353964893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1704354131237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,27 +6,22 @@\n height, width = img.shape[:2]\n \n mirImg1 = mirImg2 = mirImg3 = img.copy()\n \n-\n-\n def  miro_f1(img):\n         for h in range(height):\n             for w in range(width):\n-                mirImg1[h,w]=img[h-1,w]\n+                mirImg1[h,w]=img[1-h,w]\n         return mirImg1\n-\n-\n def miro_f2(img):\n     for h in range(height):\n         for w in range(width):\n-            mirImg2[h,w]=img[h,w-1]\n+            mirImg2[h,w]=img[h,1-w]\n     return mirImg2\n-\n def miro_f3(img):\n     for h in range(height):\n         for w in range(width):\n-            mirImg3[h,w]=img[h-1,w-1]\n+            mirImg3[h,w]=img[1-h,1-w]\n     return mirImg3\n \n \n \n"
+                }
+            ],
+            "date": 1704353964893,
+            "name": "Commit-0",
+            "content": "import cv2 as cv\n\nimg = cv.imread('./images/facetree.jpg')\n\n\nheight, width = img.shape[:2]\n\nmirImg1 = mirImg2 = mirImg3 = img.copy()\n\n\n\ndef  miro_f1(img):\n        for h in range(height):\n            for w in range(width):\n                mirImg1[h,w]=img[h-1,w]\n        return mirImg1\n\n\ndef miro_f2(img):\n    for h in range(height):\n        for w in range(width):\n            mirImg2[h,w]=img[h,w-1]\n    return mirImg2\n\ndef miro_f3(img):\n    for h in range(height):\n        for w in range(width):\n            mirImg3[h,w]=img[h-1,w-1]\n    return mirImg3\n\n\n\n\ncv.imshow('Test1',img)\n\ncv.imshow('Test2', miro_f1(img))\n\ncv.imshow('Test3', miro_f2(img))\n\ncv.imshow('Test4', miro_f3(img))\n\n\ncv.waitKey(0)\ncv.destroyAllWindows()"
+        }
+    ]
+}
